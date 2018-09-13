@@ -1,0 +1,511 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.hid{
+	display: none;
+}
+body,html{
+	width: 100%;
+	/*height: 100%;*/
+}
+#KWHmain{
+	width: 100%;
+	overflow: hidden;
+}
+.KWHmainLeft{
+	width: 200px;
+	height:100%;
+	background-size: 100%;
+	color: #8f9092;
+	font-size: 1.6rem;
+	border-right: 1px solid #ECECEC;
+}
+.KWHlogo{
+	width: 100%;
+	background: #4b8bef;
+}
+.KWHlogo img{
+	padding: 6% 20%;
+}
+.KWHleftTitle,.KWHrightTitle{
+	width: 100%;
+	padding-left: 10%;
+	line-height: 4rem;
+	background: #f8f9fb url(../img/KWHdown.png) no-repeat right 10% center;
+	cursor: pointer;
+}
+.KWHproductLi{
+	width: 100%;
+	padding-left: 30%;
+	line-height: 4rem;
+	background: url(../img/KWHicon_01.png) no-repeat left 20% center;
+	border-left: 3px solid #fff;
+	font-size: 1.3rem;
+	cursor: pointer;
+}
+.KWHproductLi a{
+	display: block;
+	color: #c3c3c3;
+}
+.KWHproductLi a:hover{
+	color: #f9b621;
+	text-decoration: none;
+}
+.KWHaddBj{
+	border-left: 3px solid #3865c9;
+	background: #4b8bef url(../img/KWHicon_01.png) no-repeat left 20% center;
+	color: #fff;
+}
+.KWHaddBj a{
+	color: #fff;
+}
+.KWHmainRight{
+	/*min-height: 1000px;*/
+	/*background: #F2DEDE;*/
+	color: #c3c3c3;
+	height: 100%;
+	overflow: hidden;
+}
+.KWHmainRightTop{
+	width: 100%;
+	line-height: 5.4rem;
+	overflow: hidden;
+	border-bottom: 1px solid #ececec;
+}
+.KWHmainRightTopMenu{
+	width: 46%;
+	margin-left: 8%;
+}
+.KWHmainRightTopMenu li{
+	float: right;
+	border-bottom: 2px solid #fff;
+	padding: 0 3%;
+    margin: 0 4%;
+    cursor: pointer;
+}
+.KWHmainRightTopMenu .KWHactive{
+	border-bottom: 2px solid #4b8bef;
+	color: #4b8bef;
+}
+.KWHmainRightTopMenu li:first-child{
+	margin: 0 0 0 4%;
+}
+.KWHmainRightTopBtn{
+	padding: 2rem;
+}
+.KWHmessageImg{
+	border-left: 1px solid #ececec;
+	border-right: 1px solid #ececec;
+	position: relative;
+}
+.KWHmessageImg img{
+	padding: 0 2rem;
+}
+.KWHmail{
+	margin-right: 4%;
+	padding-right: 1%;
+	background: url(../img/KWHdownIcon.png) no-repeat right center;
+}
+.KWHcontentIcon{
+	line-height: 5rem;
+	text-align: center;
+}
+.KWHcontentIcon a{
+	display: block;
+}
+.KWHcontentIcon a:hover{
+	background: #4b8bef;
+}
+.KWHcontentIcon li{
+	position: relative;
+}
+.KWHcontentIcon li .KWHiconLeft{
+	position: absolute;
+    top: 15px;
+    left: 99px;   
+    color: #fff;
+    width: 0px;
+    height: 30px;
+    line-height: 30px;
+    opacity: 0;
+    text-align: left;
+    text-indent: 11px;
+}
+.KWHiconLeft{
+	background: url(../img/left.png) no-repeat left center;
+}
+.KWHiconLeft span{
+	background: #494949;
+	padding: 8px;
+	font-size: 12px;
+}
+.KWHmessageImg span{
+	width: 1.4rem;
+	height: 1.4rem;
+	border-radius: 1.4rem;
+	background: #f9b621;
+	color: #fff;
+	line-height: 1.4rem;
+	font-size: 0.6rem;
+	text-align: center;
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+}
+.KWHmainRightTitle{
+	line-height: 4rem;
+	padding-left: 2rem;
+	border-bottom:1px solid #ececec ;
+}
+.input-group-addon{
+	background-color: #4b8bef;
+	color: #fff;
+	border: 1px solid #4b8bef;
+}
+.form-control{
+	border: 1px solid #ececec;
+	height: 3.4rem;
+	line-height: 3.4rem;
+}
+.KWHsearch{
+	padding: 4rem 14%;
+	border-bottom:1px solid #ececec ;
+}
+/*KWHmainCenter star*/
+.KWHmainCenter{
+	padding: 4rem 14%;
+	border-bottom:1px solid #ececec ;
+}
+.KWHmainCenterTop{
+	width: 100%;
+	overflow: hidden;
+}
+.KWHmainCenterTopLeft,.KWHmainCenterTopRight{
+	width: 50%;
+	margin: 1rem 0;
+}
+.KWHmainCenterLabel{
+	width: 25%;
+	text-align: right;
+}
+.KWHmainCenterTopLeft input,.KWHmainCenterTopRight input,.KWHmainCenterTopLeft select,.KWHmainCenterTopRight select{
+	width: 60%;
+	height: 3rem;
+	border:1px solid #ececec;
+	color: #949494;
+}
+@media only screen and (min-width: 100px) and (max-width: 1100px) {
+	.KWHmainCenterTopLeft, .KWHmainCenterTopRight{
+		width: 100%;
+		margin: 1rem 0;
+	}
+}
+@media only screen and (min-width: 1043px) and (max-width: 1236px) {
+	.KWHmainRightTopMenu{
+		width: 58%;
+		margin-left: 0;
+	}
+}
+.KWHmainBottom{
+	padding:2rem 4%;
+}
+.bootstrap-table .table, .bootstrap-table .table>tbody>tr>td, .bootstrap-table .table>tbody>tr>th, .bootstrap-table .table>tfoot>tr>td, .bootstrap-table .table>tfoot>tr>th, .bootstrap-table .table>thead>tr>td{
+	padding: 12px!important;
+	color: #8a8a8a;
+	text-align: center;
+}
+.fixed-table-container tbody td .th-inner, .fixed-table-container thead th .th-inner{
+	text-align: center;
+	color: #656678;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+	background-color: #4b8bef;
+    border-color: #4b8bef;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus{
+	background-color: #4b8bef;
+}
+/*KWHmainCenter end*/
+/*KWLmainContentCenter star*/
+.KWLmainContentCenter{
+	width: 400px;
+	background: #fff;
+	padding: 2rem;
+	border-radius: 4px;
+}
+.KWLuser,.KWLpassWord{
+	width: 100%;
+	line-height: 3rem;
+	height: 3rem;
+	outline: none;
+	border: 1px solid #ececec;
+	text-indent: 4rem;
+	color: #babbbd;
+	margin: 1rem 0;
+	background: url(../img/DFHuser.png) no-repeat left 1rem center;
+}
+.KWLpassWord{
+	background: url(../img/DFpassword.png) no-repeat left 1rem center;
+}
+.KWLloginBtn{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 0;
+	outline:none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+	background: #2773ec;
+	text-align: center;
+	line-height: 3rem;
+	color:#fff ;
+	width: 100%;
+	margin: 1rem 0;
+	
+}
+/*checkbox star*/
+.checkbox_box {
+	width: 1.4rem;
+	height: 1.4rem;
+	border-radius: 4px;
+	border: 1px solid #b3b3b2;
+	position: relative;
+	vertical-align: middle;
+	background-color:#fff;
+	float: left;
+	margin-top: 0.2rem;
+}
+.checkbox_box input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 100;/*使input按钮在span的上一层，不加点击区域会出现不灵敏*/
+}
+.addChecked{
+	width: 14px;
+	height: 10px;
+	display: inline-block;
+	background: url(../img/checkboxImg.png) no-repeat;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -5px 0 0 -7px;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(255,0,0,0);
+}
+input[type="checkbox"] + span {
+	opacity: 0;
+}
+input[type="checkbox"]:checked + span {
+	opacity: 1;
+}
+/*checkbox end*/
+.KWHLcheckboxContent{
+	overflow: hidden;
+	margin: 1rem 0;
+	color: #a9aaac;
+}
+.KWHLrember,.KWHLforget{
+	margin-left: 0.5rem;
+	font-size: 1.6rem;
+	line-height: 1.6rem;
+	font-weight: normal!important;
+}
+.KWHLforget{
+	margin-left: 40%;
+}
+#KWLmainContent{
+	padding: 10% 0 0 34%;
+}
+.KWLmainContentLogo{
+	margin-bottom:1rem;
+	text-indent: 4%;
+}
+/*KWLmainContentCenter end*/
+/*检测工具 star*/
+.KWTheader{
+	width: 100%;
+	overflow: hidden;
+	color: #fff;
+	font-size: 20px;
+}
+.KWTheaderLeft{
+	width: 20%;
+	padding: 20px 0;
+	background: #41c03b;
+}
+.KWTheaderLeft span,.KWTheaderRight span{
+	background: url(../img/headerLeft.png) no-repeat left center;
+	margin-left: 10%;
+	padding-left: 30px;
+}
+.KWTheaderRight{
+	width: 80%;
+	padding: 20px 0;
+	background: #3385ff;
+}
+.KWTheaderRight span{
+	background: url(../img/headerRight.png) no-repeat left center;
+	margin-left: 3%;
+}
+
+.KWTmain{
+	overflow: hidden;
+	width: 100%;
+}
+.KWTmainLeft{
+	width: 20%;
+	padding:0 2%;
+	border-right: 1px solid #f2f2f2;
+	background: #fbfbfb;
+}
+.KWTmainLeftTitle{
+	line-height: 48px;
+	color: #000;
+	font-size: 16px;
+	overflow: hidden;
+}
+.KWTmainLeftTitle span:first-child{
+	width: 4px;
+	height: 16px;
+	background: #41c03b;
+	margin: 17px 8px 0 0;
+}
+.KWTvin{
+	width: 100%;
+	height: 110px;
+	border: 1px solid #f2f2f2;
+}
+.KWTcarBtn input{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 0;
+	outline:none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+	width: 100%;
+	color: #fff;
+	background: #41c03b;
+	line-height: 30px;
+	text-align: center;
+	margin-top:20px;
+	border-radius: 4px;
+}
+.KWTcarBtn .KWTchangColor{
+	background: #3385ff;
+}
+.KWTmainRight{
+	width: 80%;
+}
+.KWTmainRightTopTitle{
+	padding-left: 4%;
+	line-height: 50px;
+	font-size: 16px;
+}
+.KWTmainRightTopTable,.KWTmainRightBottomTable{
+	padding: 0 4%;
+}
+.KWTmainRightBottomTable{
+	margin-bottom: 20px;
+}
+.KWTtdPadding p{
+	border-bottom: 1px solid #ddd;
+}
+.KWTtdPadding p:last-child{
+	border-bottom: none;
+}
+/*检测工具 end*/ 
+/*APP登录次数 star*/
+.ALfontColor{
+	color: #c3c3c3;
+}
+.ALfontColorNow{
+	color: #4b8bef;
+}
+.ALTitleLeftImg{
+	width: 20px;
+	cursor: pointer;
+	margin-right: 1rem;
+}
+.KWHmainRightName{
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #ececec;
+	padding-top: 2rem;
+	line-height: 4rem;
+}
+.KWHmainRightName span{
+	color: #4b8bef;
+	margin-right: 1rem;
+    font-size: 2rem;
+}
+.ALmainCenter{
+	width: 90%;
+	overflow: hidden;
+	margin: 2rem auto 0;
+	border: 1px solid #ececec;
+}
+.ALmainCenterTop{
+	background: #f8f9fb;
+	padding: 1rem 0;
+	border-bottom: 1px solid #ececec;
+	overflow: hidden;
+}
+.ALmainCenterTop label{
+	font-weight: normal;
+	margin-left: 2rem;
+	color: #666;
+	line-height: 2.6rem;
+	margin-bottom: 0;
+}
+.ALmainCenterTop select{
+	color: #666;
+	border: 1px solid #ececec;
+	width: 120px;
+    height: 2.4rem;
+}
+.ALmainCenterTop input,.ALexcelBtn input{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 0;
+	outline:none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+	width: 120px;
+    height: 2.4rem;
+    color: #666;
+    background: #fff;
+    border: 1px solid #ececec;
+}
+.ALexcelBtn{
+	padding: 1rem 3rem 1rem 0;
+    overflow: hidden;
+}
+.ALmainCenterTop .ALsearch{
+	background: #4b8bef;
+	color: #fff;
+	margin-left: 3rem;
+}
+.ALMTmargin{
+	margin: 0 1rem;
+	line-height: 2.6rem;
+}
+.ALmainCenterTop  .ALaddBj{
+	background: #fff url(../img/ALdown.png) no-repeat right 6px center;
+}
+@media only screen and (max-width:1400px) {
+	.clearP{
+		clear: both;
+        height: 16px;
+        display: block;
+	}
+}
+/*APP登录次数 end*/

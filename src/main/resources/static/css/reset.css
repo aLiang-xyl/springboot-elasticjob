@@ -1,0 +1,26 @@
+/*初始化*/
+html{font-family:"微软雅黑",Arial,sans-serif}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,button,textarea,p,th,td{padding:0;margin:0;font-family:"微软雅黑",Microsoft YaHei,sans-serif,Arial}
+fieldset,img{border:0}
+a{text-decoration:none;color:#000;outline:none}
+li{list-style:none}
+
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button,textarea,select{*font-size:100%}
+a{-webkit-transition:all 0.1s linear;-moz-transition:all 0.1s linear;-ms-transition:all 0.1s linear;-o-transition:all 0.1s linear}
+.clear:after{
+  display:block; 
+  content:"clear"; 
+  height:0; 
+  clear:both; 
+  overflow:hidden; 
+  visibility:hidden;
+}
+.clear{zoom:1;}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
